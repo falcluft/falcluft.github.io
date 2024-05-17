@@ -1,12 +1,13 @@
 import React from 'react';
 
-export function MyButton(backgroundColour){
+export function MyButton(backgroundColor, label){
 	return (
 		<button 
 			type="button"
-			style={{ backgroundColour }}
-			label="Test"
+			style={{ backgroundColor }}
+			label={{ label }}
 		>
+		{label}
 		</button>
 	);
 }
