@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function MyButton(){
+export function MyButton(backgroundColour){
 	return (
 		<button 
 			type="button"
