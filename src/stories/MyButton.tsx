@@ -1,11 +1,11 @@
 import React from 'react';
 
-export function MyButton({ ...props }){
+export function MyButton({ label, ...props }){
 	return (
 		<button 
 			type="button"
 		>
-		{props.label}
+		{label}
 		</button>
 	);
 }
