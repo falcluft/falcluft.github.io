@@ -8,7 +8,7 @@ const meta: Meta<typeof MyModalDialog> = {
   component: MyModalDialog,
   tags: ['autodocs'],
   argTypes: {
-    text: 'Simple text',
+    //text: 'Simple text',
   },
 };
 
