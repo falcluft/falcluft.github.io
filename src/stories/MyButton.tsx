@@ -5,8 +5,7 @@ interface MyButtonProps {
 }
 
 export function MyButton({ label, ...props }: MyButtonProps){
-	return 
-	(
+	return (
 		<button type="button">
 		{label}
 		</button>
