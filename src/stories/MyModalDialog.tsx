@@ -10,7 +10,7 @@ export function MyModalDialog({ text = "Default text", ...props }: MyModelDialog
         <div class="blackout-modal-dialog">
             <div class="modal-dialog-body">
                 <h5>{text}</h5>
-                <a href="#" class="button-ok" style="min-width: 100px;">OK</a>
+                <a href="#" class="button-ok">OK</a>
             </div>
         </div>
     );
