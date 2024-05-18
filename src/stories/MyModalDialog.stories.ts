@@ -17,6 +17,6 @@ export default meta;
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Main = {
   args: {
-    text: 'Some text',
+    //text: 'Some text',
   },
 };
