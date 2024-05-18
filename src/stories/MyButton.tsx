@@ -1,10 +1,10 @@
 import React from 'react';
 
-export function MyButton({ label, ...props }){
+export function MyButton({ ...props }){
 	return (
 		<button 
 			type="button"
-			label={{ label }}
+			label={{ props.label }}
 		>
 		{label}
 		</button>
