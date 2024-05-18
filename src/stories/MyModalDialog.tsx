@@ -5,7 +5,7 @@ interface MyModelDialogProps {
     text: string;
 }
 
-export function MyModalDialog({ text, ...props }: MyModelDialogProps) {
+export function MyModalDialog({ text = "Default text", ...props }: MyModelDialogProps) {
     return (
         <div class="blackout-modal-dialog1">
             <div class="modal-dialog-body1">
