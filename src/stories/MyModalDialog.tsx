@@ -7,9 +7,9 @@ interface MyModelDialogProps {
 
 export function MyModalDialog({ text, ...props }: MyModelDialogProps) {
     return (
-        <div class="blackout-modal-dialog">
-            <div class="modal-dialog-body">
-                <div>{text}</div>
+        <div class="blackout-modal-dialog1">
+            <div class="modal-dialog-body1">
+                <h5>{text}</h5>
                 <a href="#" class="button-ok">OK</a>
             </div>
         </div>
