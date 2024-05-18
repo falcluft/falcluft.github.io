@@ -11,6 +11,7 @@ function App() {
           Тест
         </p>
       </header>
+      <MyButton text="Hello"/>
     </div>
   );
 }
