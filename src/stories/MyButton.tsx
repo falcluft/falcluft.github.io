@@ -4,7 +4,7 @@ export function MyButton({ ...props }){
 	return (
 		<button 
 			type="button"
-			label={{ props.label }}
+			label='My Button'
 		>
 		{label}
 		</button>
