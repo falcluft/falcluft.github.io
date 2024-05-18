@@ -6,8 +6,7 @@ interface MyModelDialogProps {
 }
 
 export function MyModalDialog({ text, ...props }: MyModelDialogProps) {
-    return
-    (
+    return (
         <div class="blackout-modal-dialog">
             <div class="modal-dialog-body">
                 <div>{text}</div>
