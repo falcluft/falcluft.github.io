@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { MyButton } from '../stories/MyButton.tsx';
+import { MyButton } from '../stories/MyButton';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
           Тест
         </p>
       </header>
-      <MyButton text="Hello"/>
+      <MyButton label="Hello"/>
     </div>
   );
 }

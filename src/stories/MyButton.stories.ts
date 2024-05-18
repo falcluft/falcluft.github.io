@@ -8,7 +8,7 @@ const meta: Meta<typeof MyButton> = {
   component: MyButton,
   tags: ['autodocs'],
   argTypes: {
-    backgroundColor: { control: 'color' },
+    
   },
 };
 
