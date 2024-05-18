@@ -1,10 +1,9 @@
 import React from 'react';
 
-export function MyButton(backgroundColor, label){
+export function MyButton({ label, ...props }){
 	return (
 		<button 
 			type="button"
-			style={{ backgroundColor }}
 			label={{ label }}
 		>
 		{label}
