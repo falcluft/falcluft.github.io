@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.storybook",
+    "\\src",
+    "\\src\\app",
+    "\\src\\entities",
+    "\\src\\features",
+    "\\src\\stories"
+  ],
+  "SelectedNode": "\\src\\app\\App.tsx",
+  "PreviewInSolutionExplorer": false
+}

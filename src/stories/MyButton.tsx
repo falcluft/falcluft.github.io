@@ -1,6 +1,10 @@
 import React from 'react';
 
-export function MyButton({ label, ...props }){
+interface MyButtonProps {
+	label: string;
+}
+
+export function MyButton({ label, ...props }: MyButtonProps){
 	return (
 		<button 
 			type="button"
