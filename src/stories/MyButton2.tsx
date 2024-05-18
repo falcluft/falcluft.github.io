@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface MyButto2nProps {
+interface MyButton2Props {
 	label: string;
 }
 
