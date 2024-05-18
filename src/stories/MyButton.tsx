@@ -4,9 +4,8 @@ export function MyButton({ ...props }){
 	return (
 		<button 
 			type="button"
-			label='My Button'
 		>
-		{label}
+		{props.label}
 		</button>
 	);
 }
