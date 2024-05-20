@@ -78,5 +78,9 @@ code {
     background: #fff;
 }
 
+.blackout-modal-dialog:target {
+    display: block;
+}
+
 
 /*# sourceMappingURL=main.css.map*/
