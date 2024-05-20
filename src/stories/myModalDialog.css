@@ -25,6 +25,6 @@
     background: #fff;
 }
 
-.blackout-modal-dialog:target {
+.modal-dialog-blackout:target {
     display: block;
 }
