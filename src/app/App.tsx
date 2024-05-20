@@ -6,8 +6,9 @@ import { MyModalDialog } from '../stories/MyModalDialog';
 
 function App() {
   return (
+       <MyModalDialog text="Hello! I am a moal dialog!" />
     <div className="App1">
-        <MyModalDialog text="Hello! I am a moal dialog!" />
+       
         <p>
             Тест
         </p>
