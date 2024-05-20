@@ -64,7 +64,7 @@ code {
 .modal-dialog-body {
     display: table;
     width: auto;
-    min-width: 100px;
+    /*min-width: 100px;*/
     text-align: center;
     padding: 15px;
     border: 1px black;
