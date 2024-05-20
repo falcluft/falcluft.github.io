@@ -7,15 +7,11 @@ import { MyModalDialog } from '../stories/MyModalDialog';
 function App() {
   return (
     <div className="App">
-     <MyModalDialog text="Hello! I am a moal dialog!" />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <MyModalDialog text="Hello! I am a moal dialog!" />
         <p>
-          Тест
+            Тест
         </p>
-         <MyButton label="Hello 2" />
-        
-      </header>
+        <MyButton label="Hello 2" />
     </div>
   );
 }
