@@ -11,8 +11,8 @@ function App() {
         <p>
           Тест
         </p>
+         <MyButton label="Hello"/>
       </header>
-      <MyButton label="Hello"/>
     </div>
   );
 }
