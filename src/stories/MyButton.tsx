@@ -5,6 +5,11 @@ interface MyButtonProps {
 }
 
 export function MyButton({ label, ...props }: MyButtonProps){
+
+	const myButtonClick => () => {
+		window.location.href = "#myModalDialog";
+	};
+
 	return (
 		<button type="button" onClick={ myButtonClick }>
 		{label}
@@ -12,6 +17,3 @@ export function MyButton({ label, ...props }: MyButtonProps){
 	);
 }
 
-const myButtonClick => () => {
-	window.location.href = "#myModalDialog";
-}
