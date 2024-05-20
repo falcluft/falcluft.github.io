@@ -12,7 +12,7 @@ function App() {
         <p>
           Тест
         </p>
-         <MyButton label="Hello 1" />
+         <MyButton label="Hello 2" />
          <MyModalDialog text="Hello! I am a moal dialog!" />
       </header>
     </div>
