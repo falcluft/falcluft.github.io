@@ -6,15 +6,16 @@ import { MyModalDialog } from '../stories/MyModalDialog';
 
 function App() {
   return (
-      <div>
-       
-        <div className="App1">
-            <p>
-                Тест
-            </p>
-            <MyButton label="Hello 2" />
-        </div>
-         <MyModalDialog text="Hello! I am a moal dialog!" />
+    <div>
+        <main id="mainContainer" role="main">
+            <div className="App1">
+                <p>
+                    Тест
+                </p>
+                <MyButton label="Hello 2" />
+            </div>
+            <MyModalDialog text="Hello! I am a moal dialog!" />
+         </main>
     </div>
   );
 }
