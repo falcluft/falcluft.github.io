@@ -24,3 +24,7 @@
     margin: auto;
     background: #fff;
 }
+
+.blackout-modal-dialog:target {
+    display: block;
+}
