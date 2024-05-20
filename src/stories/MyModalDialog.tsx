@@ -7,7 +7,7 @@ interface MyModelDialogProps {
 
 export function MyModalDialog({ text = "Default text", ...props }: MyModelDialogProps) {
     return (
-        <div id="modalDialog" class="modal-dialog-blackout">
+        <div id="myModalDialog" class="modal-dialog-blackout">
             <div class="modal-dialog-body">
             <table>
                 <tbody>
