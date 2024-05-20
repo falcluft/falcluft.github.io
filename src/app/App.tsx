@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { MyButton } from '../stories/MyButton';
+import { MyModalDialog } form '../stories/MyModalDialog';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         <p>
           Тест
         </p>
-         <MyButton label="Hello 1"/>
+         <MyButton label="Hello 1" />
+         <MyModalDialog text="Hello! I am a moal dialog!" />
       </header>
     </div>
   );
