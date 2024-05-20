@@ -6,7 +6,7 @@ interface MyButtonProps {
 
 export function MyButton({ label, ...props }: MyButtonProps){
 	return (
-		<button type="button" onClick="MyButtonClick()">
+		<button type="button" onClick={() => MyButtonClick()}>
 		{label}
 		</button>
 	);
